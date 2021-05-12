@@ -128,7 +128,7 @@ logo-footer{
 }
 
 .header__info__title{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color: #fff;
     font-weight: normal;
@@ -239,11 +239,13 @@ logo-footer{
 
 
 .menu{
+    left: 100%;
     visibility: hidden;
     transition: 1s;
 }
 
 .hamburger.is-active ~ .menu{
+    left: 0%;
     visibility: visible;
 }
 
@@ -346,7 +348,7 @@ logo-footer{
 .contact__title{
     padding: 0;
     margin: 0;
-    font-size: 35px;
+    font-size: 24px;
     color: #151515;
     margin-bottom: 4rem;
 }
@@ -362,7 +364,7 @@ logo-footer{
     border: none;
     text-align: center;
     margin-top: 1rem;
-    padding: 9px 90px;
+    padding: 9px 80px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -372,7 +374,7 @@ logo-footer{
 
 .textarea{
     resize: none;
-    padding: 9px 100px;
+    padding: 9px 90px;
     border: none;
     text-align: center;
     margin-top: 1rem;
