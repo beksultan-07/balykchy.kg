@@ -147,6 +147,11 @@ logo-footer{
     font-family: 'Poppins', sans-serif;
 }
 
+.header__btn__link{
+    text-decoration: none;
+    color: #fff;
+}
+
 .show-more img{
     margin-top: auto;
     width: 30px;
@@ -313,7 +318,8 @@ logo-footer{
 .gallery__imgs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-rows: auto;
+    grid-gap: 5px;
     grid-auto-rows: auto;
     grid-auto-columns: auto;
     padding-bottom: 5rem;
@@ -321,6 +327,8 @@ logo-footer{
 
 .gallery__imgs img{
     width: 100%;
+    /* vertical-align: middle; */
+    object-fit: cover
 }
 
 .gallery__img5{
@@ -393,6 +401,10 @@ logo-footer{
     color: #fff;
     padding: 50px 10px 50px;
     /* height: 180px; */
+}
+
+.logo-footer{
+    color: #fff;
 }
 
 .footer__wrap{
